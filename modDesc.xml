@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="104">
+  <author>LimnedMoonlight</author>
+  <version>1.1.0.0</version>
+
+  <title>
+    <de>Vertikale Kleinwindkraftanlage Lizard H15</de>
+    <en>Vertical Windturbine Lizard H15</en>
+    <fr>Turbine Eolienne Verticale Lizard H15</fr>
+    <pl>Pionowa Mała Turbina Wiatrowa Lizard H15</pl>
+  </title>
+
+  <description>
+    <de><![CDATA[
+Konzipiert wurde diese Kleinanlage u.a für die autarke Stromversorgung von ländlichen Gegenden, unabhängigen Gebäuden und Häusern.
+Vertikal-Anlagen bieten eine vergleichbar hohe Energiedichte auf kleinsten Raum.
+Vertikal-Anlagen verursachen weniger Lärm sowie Schattenwirkung und sind Energieeffizienter als die gängigen Horizontal-Anlagen.
+
+Preis: 45250 €
+Tägliche Unterhaltskosten: 7 €
+Nennleistung: 15 KW
+Einkommen pro Monat: 0 - 4.800 €
+
+Changelog 1.1.0.0:
+- Kleine XML-Anpassungen,
+- Fehlende BRAND korrigiert,
+- Rotationsachse des Windmessers korrigiert (Rotiert nun korrekt),
+- Polnische Übersetzung hinzugefügt.]]>
+  </de>
+
+  <en><![CDATA[
+This small vertical Turbine System was designed for self-sufficient power supply of rural areas, independent buildings and houses.
+Vertical systems offer a comparably high energy density in the smallest of spaces.
+In addition, they cause less noise and shadow effects and are more energy efficient than the common horizontal systems.
+
+Price: 45250 $
+Daily Upkeep: 7 $
+Nominal Power: 15 KW
+Income per Month: 0 - 4.800 €
+
+Changelog 1.1.0.0:
+- Missing BRAND corrected,
+- Minor XML adjustments,
+- Corrected the wind gauge's axis of rotation (now rotates correctly).
+- Added Polish translation.]]>
+  </en>
+
+  <fr><![CDATA[
+Ce petit système de turbine verticale a été conçu pour l'alimentation électrique autonome des zones rurales, des bâtiments indépendants et des maisons.
+Les systèmes verticaux offrent une densité énergétique relativement élevée dans les espaces les plus réduits.
+De plus, ils génèrent moins de bruit et d'effets d'ombre et sont plus efficaces sur le plan énergétique que les systèmes horizontaux courants.
+
+Prix : 45250 $
+Entretien quotidien : 7 $
+Puissance nominale : 15 KW
+Revenu mensuel : 0 - 4 800 €
+
+Changelog 1.1.0.0:
+- Marque manquante corrigée,
+- Petites modifications XML,
+- Correction de l'axe de rotation de l'anémomètre (il tourne désormais correctement),
+- Ajout de la traduction en polonais.]]>
+  </fr>
+
+<pl><![CDATA[
+Ta niewielka instalacja została zaprojektowana m.in. do samowystarczalnego zasilania obszarów wiejskich, niezależnych budynków i domów.
+Instalacje pionowe oferują stosunkowo wysoką gęstość energii na najmniejszej przestrzeni.
+Instalacje pionowe powodują mniej hałasu i cienia oraz są bardziej energooszczędne niż popularne instalacje poziome.
+
+Cena: 45250 €
+Codzienne koszty utrzymania: 7 €
+Moc znamionowa: 15 KW
+Dochód miesięczny: 0 - 4800 €
+
+Changelog 1.1.0.0:
+- Brakująca MARKA poprawiona,
+- Niewielkie poprawki XML,
+- Poprawiono oś obrotu anemometru (teraz obraca się prawidłowo),
+- Dodano polskie tłumaczenie.]]>
+  </pl>
+  </description>
+
+  <iconFilename>icon_h15_vertical.dds</iconFilename>
+  <multiplayer supported="true"/>
+
+  <storeItems>
+    <storeItem xmlFilename="h15_vertical.xml"/>
+  </storeItems>
+
+  <l10n>
+    <text name="description">
+    <de>Konzipiert wurde diese Kleinanlage u.a für die autarke Stromversorgung von ländlichen Gegenden, unabhängigen Gebäuden und Häusern. Vertikal-Anlagen bieten eine vergl. hohe Energiedichte auf kleinsten Raum.</de>
+    <en>This small vertical Turbine System was designed for self-sufficient power supply of rural areas, independent buildings and houses. Vertical systems offer a comparably high energy density in the smallest of spaces.</en>
+    <fr>Ce petit système de turbine verticale a été conçu pour l'alimentation électrique autonome des zones rurales, des bâtiments indépendants et des maisons. Les systèmes verticaux offrent une densité énergétique comparativement élevée dans les espaces les plus réduits.</fr>
+    <pl>Ta niewielka instalacja została zaprojektowana m.in. do samowystarczalnego zasilania energią elektryczną obszarów wiejskich, niezależnych budynków i domów. Instalacje pionowe oferują stosunkowo wysoką gęstość energii na najmniejszej przestrzeni.</pl>
+    </text>
+
+    <text name="name">
+    <de>Lizard H15</de>
+    <en>Lizard H15</en>
+    <fr>Lizard H15</fr>
+    <pl>Lizard H15</pl>
+    </text>
+  </l10n>
+
+</modDesc>

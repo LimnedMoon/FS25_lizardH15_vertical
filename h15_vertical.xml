@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable type="windTurbine"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../shared/xml/schema/placeable.xsd">
+    <storeData>
+        <name>$l10n_name</name>
+        <functions>
+            <function>$l10n_function_powerGenerator</function>
+        </functions>
+        <image>store_h15_vertical.png</image>
+        <price>45250</price>
+        <dailyUpkeep>7</dailyUpkeep>
+        <lifetime>800</lifetime>
+        <rotation>0</rotation>
+        <brand>LIZARD</brand>
+        <species>PLACEABLE</species>
+        <category>generators</category>
+        <brush>
+            <type>placeable</type>
+            <category>production</category>
+            <tab>generators</tab>
+        </brush>
+        <vertexBufferMemoryUsage>114432</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>32512</indexBufferMemoryUsage>
+        <textureMemoryUsage>1638400</textureMemoryUsage>
+        <audioMemoryUsage>0</audioMemoryUsage>
+        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+    </storeData>
+
+    <base>
+        <filename>h15_vertical.i3d</filename>
+        <canBeRenamed>true</canBeRenamed>
+        <boughtWithFarmland>false</boughtWithFarmland>
+    </base>
+
+    <placement useRandomYRotation="false" useManualYRotation="true">
+        <testAreas>
+            <testArea startNode="testAreaStart01" endNode="testAreaEnd01" />
+        </testAreas>
+
+        <sounds>
+            <place template="smallImp" />
+        </sounds>
+    </placement>
+
+    <clearAreas>
+        <clearArea startNode="clearAreaStart01" widthNode="clearAreaWidth01" heightNode="clearAreaHeight01"/>
+    </clearAreas>
+
+    <leveling requireLeveling="true" maxSmoothDistance="1" maxSlope="75" maxEdgeAngle="30">
+        <levelAreas>
+            <levelArea startNode="levelAreaStart01" widthNode="levelAreaWidth01" heightNode="levelAreaHeight01"/>
+        </levelAreas>
+    </leveling>
+
+    <indoorAreas>
+        <indoorArea startNode="clearAreaStart01" widthNode="clearAreaWidth01" heightNode="clearAreaHeight01"/>
+    </indoorAreas>
+
+    <tipOcclusionUpdateAreas>
+        <tipOcclusionUpdateArea startNode="tipOcclusionUpdateAreaStart01" endNode="tipOcclusionUpdateAreaEnd01" />
+    </tipOcclusionUpdateAreas>
+
+    <ai>
+        <updateAreas>
+            <updateArea startNode="tipOcclusionUpdateAreaStart01" endNode="tipOcclusionUpdateAreaEnd01" />
+        </updateAreas>
+    </ai>
+
+    <windTurbine headNode="windmeasureNode" headAdjustToWind="false" optimalWindSpeed="12" incomePerHour="200">
+        <animationNodes>
+            <animationNode node="rotationNode" rotSpeed="175" rotAxis="3" /> <!-- Vertical Rotor-->
+            <animationNode node="windmeasureNode" rotSpeed="425" rotAxis="2" /> <!-- Windmeasure Asset-->
+        </animationNodes>
+
+        <sounds>
+            <idle template="generator05" innerRadius="7" outerRadius="32" volumeScale="1.25" pitchScale="1.65"/>
+        </sounds>
+    </windTurbine>
+
+    <i3dMappings>
+        <i3dMapping id="clearAreaStart01" node="0>0|0" />
+        <i3dMapping id="clearAreaWidth01" node="0>0|0|0" />
+        <i3dMapping id="clearAreaHeight01" node="0>0|0|1" />
+        <i3dMapping id="levelAreaStart01" node="0>1|0" />
+        <i3dMapping id="levelAreaWidth01" node="0>1|0|0" />
+        <i3dMapping id="levelAreaHeight01" node="0>1|0|1" />
+        <i3dMapping id="testAreaStart01" node="0>2|0" />
+        <i3dMapping id="testAreaEnd01" node="0>2|0|0" />
+        <i3dMapping id="tipOcclusionUpdateAreaStart01" node="0>3|0" />
+        <i3dMapping id="tipOcclusionUpdateAreaEnd01" node="0>3|0|0" />
+        <i3dMapping id="windMeasureRotor" node="0>4|0|1" />
+        <i3dMapping id="windmeasureNode" node="0>4|0|1|0" />
+        <i3dMapping id="rotationNodeRot" node="0>4|0|0" />
+        <i3dMapping id="rotationNode" node="0>4|0|0|0" />
+    </i3dMappings>
+</placeable>
