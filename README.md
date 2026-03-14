@@ -2,6 +2,7 @@
 Vertical systems offer a comparably high energy density in the smallest of spaces.
 In addition, they cause less noise and shadow effects and are more energy efficient than the common horizontal systems.
 
+## Modhub-Link: https://farming-simulator.com/mod.php?mod_id=309380&title=fs2025
 ## Price: 45250 $
 - Daily Upkeep: 7 $
 - Nominal Power: 15 KW
