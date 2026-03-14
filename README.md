@@ -1,6 +1,6 @@
 ## This small vertical Turbine System was designed for self-sufficient power supply of rural areas, independent buildings and houses.
-## Vertical systems offer a comparably high energy density in the smallest of spaces.
-## In addition, they cause less noise and shadow effects and are more energy efficient than the common horizontal systems.
+Vertical systems offer a comparably high energy density in the smallest of spaces.
+In addition, they cause less noise and shadow effects and are more energy efficient than the common horizontal systems.
 
 ## Price: 45250 $
 - Daily Upkeep: 7 $
